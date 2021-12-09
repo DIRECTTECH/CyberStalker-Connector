@@ -1,0 +1,6 @@
+variables:
+  CI_IMAGE: "pix-http-bridge"
+
+include:
+  - project: 'pixelcore/platform'
+    file: '/scripts/gl-cicd/.gitlab-ci-template.yml' 
