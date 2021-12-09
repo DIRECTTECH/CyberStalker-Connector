@@ -1,1 +1,3 @@
 # CyberStalker-Connector
+
+Based on machine learning, CyberStalker Connector facilitates and secures the data transmission both between the nodes within infrastructure and different modules inside it. Metrics collected, client libraries, customized data - the user gains the full insight of the network in use at no cost in no time. CyberStalker Connector unifies the data from the systems, applications and networks, assisting the user to configure it. Besides, CyberStalker Connector can be used to discover and backup end nodes that are connected to firewall blades that are managed by the security systems.
