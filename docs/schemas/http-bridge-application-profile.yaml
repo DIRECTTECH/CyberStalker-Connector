@@ -1,0 +1,123 @@
+---
+schema:
+  name: 'Http Bridge'
+  type: application
+  m_icon:
+  m_tags:
+  - 'app profile'
+  - 'application'
+  - 'http_bridge'
+  enabled: true
+  m_email: support@pixel-networks.com
+  m_author: Pixel
+  m_picture:
+  m_version: 2.0.23
+  m_longname: 'Http Bridge Application'
+  description: 'Http Bridge Application'
+  m_external_id: 0af895f1-0a79-47a4-a963-7b1d6a89f12c
+  m_manufacturer: Pixel
+  editorgroup: 5d963ea1-cdf2-4e66-8f98-bc07d5f3ea07
+controls:
+- rpc: TestModule
+  mask: ''
+  type_spec: string
+  regex: ''
+  units: ''
+  hidden: false
+  argument: TestModule
+  value_set: {}
+  description: Test of http bridge module.
+  value_range: {}
+  default_value: {}
+- rpc: RunUnitTests
+  mask: ''
+  type_spec: string
+  regex: ''
+  units: ''
+  hidden: false
+  argument: RunUnitTests
+  value_set: {}
+  description: Unit tests of http bridge module.
+  value_range: {}
+  default_value: {}
+properties:
+- mask: ''
+  type: string
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: TYPE
+  value_set: 0
+  group_name: Credentials
+  description: 'Type'
+  value_range: ''
+  default_value: 'Application profile'
+  group_description:
+- mask: ''
+  type: string
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: Username
+  value_set: 0
+  group_name: Settings
+  description: 'Username for HTTP Auth'
+  value_range: ''
+  default_value: 'admin'
+  group_description:
+- mask: ''
+  type: string
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: Password
+  value_set: 0
+  group_name: Settings
+  description: 'Password for HTTP Auth'
+  value_range: ''
+  default_value: ''
+  group_description:
+- mask: ''
+  type: string
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: Message
+  value_set: 0
+  group_name: HealthCheck
+  description: 'Status message'
+  value_range: ''
+  default_value: ''
+  group_description:
+- mask: ''
+  type: bool
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: Status
+  value_set: 0
+  group_name: HealthCheck
+  description: 'Application online'
+  value_range: ''
+  default_value: false
+  group_description:
+- mask: ''
+  type: number
+  index: 0
+  regex: ''
+  units: ''
+  hidden: false
+  property: Timeout
+  value_set: 0
+  group_name: HealthCheck
+  description: 'Timeout for offline status'
+  value_range: ''
+  default_value: 120
+  group_description:
+...
+ 

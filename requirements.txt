@@ -1,0 +1,13 @@
+aiohttp==3.7.4.post0
+gql==3.0.0a5
+asyncio==3.4.3
+pyyaml==5.4.1
+envyaml==1.7.210310
+flask==1.1.2
+flask_httpauth==4.2.0
+werkzeug==1.0.1
+websockets==8.1
+pytest==6.1.1
+coverage==5.3
+regex==2021.7.6
+waitress==2.0.0
